@@ -1,0 +1,16 @@
+[package]
+name = "matrixbots"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.82"
+clap = { version = "4.5.4", features = ["derive", "env"] }
+dotenv = "0.15.0"
+matrix-sdk = "0.7.1"
+multimint = "0.3.4"
+rand = "0.8.5"
+serde = "1.0.200"
+serde_json = "1.0.116"
+tokio = { version = "1.37.0", features = ["full"] }
+tracing-subscriber = "0.3.18"
